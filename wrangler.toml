@@ -1,1 +1,3 @@
-wrangler.toml
+name = "applyconsultation-bot-worker"
+main = "src/index.js"
+compatibility_date = "2026-02-22"
