@@ -1,3 +1,9 @@
 name = "applyconsultation-bot-worker"
 main = "src/index.js"
 compatibility_date = "2026-02-22"
+
+# IMPORTANT:
+# Replace the id value with your real KV namespace id from Cloudflare KV dashboard.
+kv_namespaces = [
+  { binding = "STATE", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+]
